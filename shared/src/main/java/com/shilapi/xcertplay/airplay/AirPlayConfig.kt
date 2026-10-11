@@ -40,7 +40,7 @@ data class AirPlayConfig(
     val main: AirPlayDisplayConfig,
     val cluster: AirPlayDisplayConfig? = null,
     val rightHandDrive: Boolean = false,
-    val port: Int = 7000,
+    val port: Int = 7001,  // XYAuto/ATC SD8227 units: factory hotspot service squats 7000 (EADDRINUSE)
     val entertainmentSampleRate: Int = 48000,
     val hevc: Boolean = false,
     val disableAudioOutput: Boolean = false,

@@ -17,7 +17,7 @@ android {
         minSdk = 17
         targetSdk = 22
         multiDexEnabled = true
-        versionCode = 107
+        versionCode = 108
         versionName = "0.2.7-golf.7"
 
     }
@@ -28,7 +28,7 @@ android {
         create("universal") {
             dimension = "edition"
             applicationId = "com.legacy.headunitwireless"
-            versionName = "0.2.7-universal.1"
+            versionName = "0.2.7-universal.1-ac8227"
         }
     }
 
